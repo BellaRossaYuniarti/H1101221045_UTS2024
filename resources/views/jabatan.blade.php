@@ -16,16 +16,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="jabatan" class="form-label">Jabatan</label>
-                            <select class="form-select" id="jabatan" name="jabatan">
-                                <option value="1">Kepala Sekolah</option>
-                                <option value="2">Wakil Kepala Sekolah</option>
-                                <option value="3">Waka Kurikulum</option>
-                                <option value="4">Waka Kesiswaan</option>
-                                <option value="5">Waka Sarpras</option>
-                                <option value="6">Waka Humas</option>
-                                <option value="7">Tata Usaha</option>
-                                <option value="8">Dewan Guru</option>
-                            </select>
+                            <input type="text" class="form-control" id="jabatan" placeholder="Masukkan jabatan pegawai">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
